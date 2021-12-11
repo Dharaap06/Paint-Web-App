@@ -29,7 +29,7 @@ mouseEvent="mousedown";
 }
 
 canvas.addEventListener("mousemove", my_mousemove);
-function my_mousemove()
+function my_mousemove(e)
 {
 current_position_of_mouse_x= e.clientX- canvasoffsetleft;
 current_position_of_mouse_y= e.clientY- canvasoffsettop;
